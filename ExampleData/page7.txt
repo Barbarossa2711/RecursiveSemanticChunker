@@ -1,0 +1,71 @@
+Prüfungs-Nr.
+20051
+Modulbezeichnung
+Angewandte Mathematik in der Data Science (Applied Mathematics in Data Science) (6 CP)
+Workload
+180
+Credits
+6
+Studiensemester
+1
+Dauer
+1
+Lehrveranstaltungen
+Übung; Vorlesung
+Kontaktzeit (SWS)
+1
+Kontaktzeit (h)
+13
+Selbststudium
+167
+geplante Gruppengröße
+30
+Lernergebnisse
+In diesem Modul sollen die mathematischen Grundlagen, welche typischerweise in technischen Studiengängen gelehrt 
+werden, aufgefrischt und vertieft werden. Durch die Auffrischung hat das Modul einen Synchronisationscharakter. Bei 
+der Vertiefung soll die Mathematik als Werkzeug zur Lösung anwendungsorientierter Fragestellungen aus dem Bereich 
+Data Science genutzt werden, wodurch die Studierenden in die Lage versetzt werden, theoretisch Gelerntes in die 
+Praxis zu transferieren. Hierbei soll auch die Fähigkeit erworben werden, mathematische Probleme algorithmisch zu 
+erfassen, zu implementieren und somit effizient zu lösen.
+Inhalte
+Grundlagen zur Wiederholung im reinen Selbststudium
+•Logarithmus- und Exponentialfunktion
+•Reihen, Summen, Ungleichungen
+•Koordinatensysteme (kartesische Koordinaten, Polarkoordinaten)
+•Differentialrechnung (Differentialquotient, Ableitungsregeln)
+•Regel nach de l’Hospital
+•Taylorreihen
+•Integralrechnung (Riemann-Integral, Substitution, partielle Integration, Partialbruchzerlegung und Integration 
+rationaler Funktionen)
+Basisthemen
+•Lineare Gleichungssysteme (Lösungsmengen, Gaußsches Eliminationsverfahren)
+•Vektorräume, Eigenwerte, Eigenvektoren, lineare Unabhängigkeit, Basis, Skalarprodukt, lineare Abbildungen
+•Matrizen (Koeffizientenmatrizen linearer Gleichungssysteme,   
+Matrizenoperationen, Determinanten, orthogonale und diagonale Matrizen, Inverse und Moore-Penrose 
+Pseudoinverse, Singulärwertzerlegung)
+•Ausgleichsprobleme, Hauptkomponentenanalyse
+•Grundlagen der Optimierung am Beispiel des CG-Verfahrens, Konditionszahl
+•Numerik von Differentialgleichungen, Stabilität von Lösungen
+Mögliche Zusatzthemen (Auswahl)
+•Binärsuche in großen Datenmengen, Zeitreihenanalyse (periodische Funktionen, exponentielles Wachstum bzw. 
+exponentieller Verfall)
+•Wachstum von Funktionen, Konzept der O(n) Notation
+Lehrformen
+Selbststudium, seminaristischer Unterricht, Übungen am PC
+Teilnahmevoraussetzungen
+Formal: gem. RPO/FPO
+Inhaltlich: keine
+Im Modul kann die Lernplattform Moodle zum Einsatz kommen. Die Einschreibung in den entsprechenden Kurs auf 
+der Lernplattform ist in diesen Fällen Voraussetzung für die Teilnahme.
+Prüfungsformen
+Portfolioprüfung, Klausur
+Wird die Modulprüfung in Form einer Portfolioprüfung durchgeführt, können prüfungsrechtlich relevante Daten 
+innerhalb des Kurses in Moodle erhoben werden.
+Prüfungsvorleistungen
+Keine
+Voraussetzungen für die Vergabe von Kreditpunkten
+Bestandene Modulprüfung
+Stellenwert der Note für die Endnote
+Häufigkeit des Angebotes
+Wintersemester
+7

@@ -8,7 +8,7 @@ This creates semantically coherent chunks.
 
 But if your resources are limited, you may want to use smaller embedding
 models such as sentence-transformers/all-MiniLM-L6-v2, which truncates any content after the 256 token.
-Because of this small context length, a semantic chunker like langchain implemented here is not very suitable.
+Because of this small context length, a semantic chunker like langchain implemented [here](https://python.langchain.com/v0.2/api_reference/experimental/text_splitter/langchain_experimental.text_splitter.SemanticChunker.html) is not very suitable.
 This chunker does not care about a maximum chunk size, it just splits the given content based on its contextual
 connection.
 

@@ -1,11 +1,8 @@
-from langchain_text_splitters import SentenceTransformersTokenTextSplitter
 from sentence_transformers import SentenceTransformer
 import re
 from scipy import spatial
 from transformers import AutoTokenizer
-from typing import Union
 import pandas as pd
-import numpy as np
 
 
 class SentenceLengthError(Exception):
@@ -66,10 +63,12 @@ class RecursiveSemanticChunker:
         return result, size
 
     def __get_max_chunk_length(self, st_model_name: str) -> int:
-        # Lade das Modell
+        """
+        Determines the maximum token length of a chunk based on the provided sentence-transformers model name.
+        :param st_model_name: Name of a sentence-transformers model.
+        :return: Maximum token length of a chunk.
+        """
         model = SentenceTransformer(st_model_name)
-
-        # Greife auf den Tokenizer zu, der die maximale Länge bereitstellt
         tokenizer = model.tokenizer
         max_length = tokenizer.model_max_length
 

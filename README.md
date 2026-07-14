@@ -21,14 +21,14 @@ chosen model into smaller chunks based on the maximum cosine distance within the
 First, the chunker splits the content into blocks and calculates the cosine distance from one block to its successor.
 Using an example threshold of 0.85, this results in the following figure.
 
-![dist sentences](Figures/dist_sentences.pdf)
+![dist sentences](Figures/dist_sentences.png)
 
 The red line represents the defined threshold and the blue points are the cosine distances of the sentences.
 By crossing the red line, a sentence ends and a new one begins. This is the standard procedure for semantic chunking.
 
 The resulting chunk sizes are shown in the following figure:
 
-![chunk sizes](Figures/chunk_sizes.pdf)
+![chunk sizes](Figures/chunk_sizes.png)
 
 As illustrated in the preceding example, the data chunk with the identifier '4' exceeds the capacity of the
 *all-MiniLM-L6-v2* embedding model for complete processing.
@@ -40,12 +40,12 @@ the maximum context length of the model.
 
 The figure below illustrates the cosine distances within the chunk 4:
 
-![dist problematic chunk](Figures/dist_problematic_chunk.pdf)
+![dist problematic chunk](Figures/dist_problematic_chunk.png)
 
 Upon completion of the process, the chunk with the identifier "4" is divided into five smaller chunks, as illustrated
 in the figure below.
 
-![chunk sizes splitted](Figures/chunk_sizes_splitted.pdf)
+![chunk sizes splitted](Figures/chunk_sizes_splitted.png)
 
 ## [Note]
 This is an initial experimental approach to the concept of recursively dividing text into progressively smaller units
